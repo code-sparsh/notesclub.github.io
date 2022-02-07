@@ -1,0 +1,35 @@
+
+html, body{
+    background-color: #e4e4e4;
+    height:100%;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#logo img {
+    border: 2px solid blue;
+    height: 32px;
+}
+.navbar ul {
+    display:flex;
+    list-style: none;
+    justify-content: right;
+    
+}
+
+.navbar ul li a {
+    padding:0px 10px;
+    margin:20px;
+    text-decoration: none;
+    font-size: 35px;
+    color:green;
+}
+
+.explorer {
+    height: 100%;
+    width: 100px;
+    background-color: whitesmoke;
+    margin: 20px;
+}

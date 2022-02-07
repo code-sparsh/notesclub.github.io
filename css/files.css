@@ -1,0 +1,52 @@
+/* .files-grid {
+    display:grid;
+    position: relative;
+    top:00px;
+    left:600px;
+    width:500px;
+} */
+
+/* .file {
+    border:1px solid rgb(62, 62, 252);
+    border-radius: 10px;
+}
+.file h3 {
+    display:inline-block;
+} */
+
+.files-table {
+    border-collapse: collapse;
+    margin:25px 0px;
+    font-size: 1.1em;
+    min-width: 400px;
+    position:relative;
+    left: 400px;
+    bottom:500px;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+
+}
+
+.files-table thead tr {
+    background-color: #009879 ;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.files-table th,
+.files-table td {
+    padding: 12px 30px;
+    /* border-bottom: 1px solid #dddddd; */
+}
+
+.download-btn {
+    /* margin-left: 40px; */
+    height: 20px;
+    background-color:#d2f7e5;
+    color:black;
+    cursor: pointer;
+    border:1px solid #d2f7e5;
+    border-radius: 5px;
+}
+
